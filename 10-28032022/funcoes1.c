@@ -24,6 +24,21 @@ void pularLinha(int qtdVezes){
     }
 }
 
+void comparar(int v1, int v2){
+    if(v1 > v2){
+        printf("O primeiro número é maior que o segundo");
+    }
+    else if(v1 == v2){
+        printf("Os números são iguais");
+
+    }
+    else{
+        printf("O segundo número é maior que o primeiro");
+    }
+}
+
+
+
 void main(){
     int n1,n2;
     system("clear");//limpar a tela do terminal
@@ -36,8 +51,14 @@ void main(){
     separadorLinha();
     pularLinha(2);
     printf("Digite um número:\n");
-    scanf("%d",n1);
+    scanf("%d",&n1);
     printf("Digite outro número:\n");
-    scanf("%d",n2);
+    scanf("%d",&n2);
+
+    pularLinha(1);
+
+    comparar(n1,n2);
+
+    pularLinha(1);
 
 }
