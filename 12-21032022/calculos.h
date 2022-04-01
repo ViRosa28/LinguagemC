@@ -37,6 +37,10 @@ void ordenar(int valores[], int tamanho){
         for(i = j-1; i >= 0 && valores[i] > x; i--){
             valores[i + 1] = valores[i];
         }
-        valores[i+1] = x;
+           valores[i+1] = x;
     }
+    for(int p = 0 ; p <tamanho ; p++){
+        printf("%d - " ,valores[p]);
+    }
+
 } 
