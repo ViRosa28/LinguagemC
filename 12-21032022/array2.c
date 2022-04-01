@@ -1,7 +1,7 @@
 /*
 Programa para realizar soma utilizando array
 */
-
+//conjunto de dados
 
 #include <stdio.h>
 #include <stdlib.h>
