@@ -80,3 +80,5 @@ void menorValor(int array[], int tamanho){
 
 ## Lingaguem C++
 Utilizamos em C++ o "std::cout" que significa stream de saída (Operador de extração) e os direcionais <</>> que é muito ultilizado nessa linguagem. 
+
+Aprendemos dentro da linguagem como editar um progama com mais pessoas, no exemplo de oeração, usuário e principal, utilizando os exemplos de Jane e John.
